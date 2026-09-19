@@ -1,0 +1,19 @@
+services:
+  orbit:
+    container_name: orbit-kanban
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3000"
+    environment:
+      DATABASE_URL: "file:/data/orbit.db"
+      NODE_ENV: "production"
+    volumes:
+      - orbit-data:/data
+    restart: unless-stopped
+
+volumes:
+  orbit-data:
+    external: true
+    name: orbit-kanban-data

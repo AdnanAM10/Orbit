@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.env
+prisma/*.db*
+test-results/
+playwright-report/
+*.tsbuildinfo
+orbit-gateway/Caddyfile
+orbit-gateway/compose.yaml
+screenshots/
