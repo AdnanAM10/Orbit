@@ -7,4 +7,3 @@ playwright-report/
 *.tsbuildinfo
 orbit-gateway/Caddyfile
 orbit-gateway/compose.yaml
-screenshots/

@@ -2,6 +2,28 @@
 
 A personal project command center built with Next.js App Router, React, TypeScript, Prisma, SQLite, dnd-kit, Lucide, and React Markdown. The responsive interface includes light and dark themes, a six-stage project board, task management, notes, milestones, calendar, analytics, search, archive, and activity history.
 
+## Screenshots
+
+### Dashboard
+
+![Orbit dashboard](screenshots/dashboard.png)
+
+### Analytics
+
+![Orbit analytics](screenshots/analytics.png)
+
+### Calendar
+
+![Orbit calendar](screenshots/calendar.png)
+
+### Dark mode
+
+![Orbit dark mode](screenshots/dark-mode.png)
+
+### Mobile view
+
+![Orbit mobile view](screenshots/mobile.png)
+
 ## Run locally
 
 Requirements: Node.js 22 LTS and npm. An internet connection is needed for the initial dependency and Prisma engine downloads.
